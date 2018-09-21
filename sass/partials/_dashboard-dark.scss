@@ -1,0 +1,97 @@
+.body-dark {
+	background-color: #19223F;
+
+	.make-graphs-smaller {
+		width: 75%;
+	}
+
+	.staff-assholes {
+		background-color: #0A6358;
+		color: whitesmoke;
+		margin-left: 200px;
+		flex-direction:row;
+  		display: -webkit-flex;
+  		display: flex;
+		width: 75.5%;
+		margin-left: 24.5%;
+		align-content: center;
+		flex-flow: row wrap;
+		text-align: center;
+
+		@include small {
+			width: 100%;
+			margin-left:0px;
+		}
+	}
+
+	.asshole-person {
+  		flex: 1;
+  		margin: 10px;
+  		order: 1; 
+	}
+
+	.assholes-heading {
+	}
+
+	.nuts {
+		margin-top: 30px;
+	}
+
+	#sales{
+		width: 100%;
+		text-align: center;
+
+		canvas{
+		width: 80%;
+		display: inline-block;
+		} 
+	}
+
+	main {
+		width: 74.5%;
+		margin-left: 24.5%;
+
+		@include small {
+			width: 100%;
+			margin-left:0px;
+		}
+	}
+
+	.h1-sales {
+		font-family: 'dreamlandregular';
+		color: whitesmoke;
+		text-align: center;
+		padding: 20px;
+		width: 100%;
+	}
+
+	.headingg {
+		margin-top:	70px;
+	}
+
+	.stats-p {
+		width: 50%;
+		color: whitesmoke;
+		text-align: center;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%, 0%); 
+	}
+
+	.sales-container {
+		padding: 0px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

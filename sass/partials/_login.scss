@@ -1,0 +1,73 @@
+.login-background-image {
+	background-color: #F1F0EC;
+	background-image: url(../img/shit.png); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: 523px 56px;
+	background-size: 50%;
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+
+
+	/* Form */
+
+	input {
+		color: #152139;
+		box-sizing: border-box;
+		display: block; /* This is what gets them ontop of eahother */
+		margin-right: 0 auto;
+		margin-left: 0 auto;
+		border: 1px solid #152139;
+		outline: 0;
+		width: 70%;
+		margin: 20px;
+		padding: 15px;
+		height: 50px;
+		background-color: transparent;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+
+	.btn.success {
+		background-color: transparent;
+		color: #171E30 !important;
+	}
+
+	.btn.success:hover {
+		background-color: #2C2E37;
+		color: whitesmoke !important;
+		transition: 0.8s ease-in;
+	}
+
+	.btn {
+		font-family: 'dreamlandregular';
+		font-size: 20px;
+		color: #171E30;
+	}
+
+	.forgot-link {
+		text-decoration: none;
+		color: #152139;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	}
+
+	.forgot-link:hover {
+		color: #D0331B;
+		transition: 0.8s ease-in;
+	}
+
+	.logo {
+    	width: 75%;
+	}
+}
+
+
+
+
+
+
